@@ -1,0 +1,166 @@
+
+html{
+  font-size: 62.5%;
+  
+}
+body {
+    font-family: 'Foda Sans Bold Rnd', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h1, h2{
+    line-height: 1.2;
+    font-weight: normal;
+}
+h1 {
+    font-size: 4.2rem;
+    
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: red;
+}
+
+
+img{
+    max-width: 90%;
+}
+
+/* Herramientas */
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+/* Header */
+
+.bob{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-top: 8px solid black;
+    border-left: 8px solid black;
+    border-right: 8px solid red;
+    border-bottom: 8px solid red;
+
+    display: block;
+    margin: 50px auto 20px auto;
+}
+@media (max-width: 768px) {
+    .bob {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bob {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.bob:hover{
+    border-top: 8px solid red;
+    border-left: 8px solid red;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    cursor: pointer;
+}
+
+
+header > h1 {
+  text-align: center;
+  
+}
+
+#presentacion {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+#presentacion p {
+    font-size: clamp(1.4rem, 2vw, 2.1rem);
+    margin: 1rem auto;
+    word-wrap: break-word;
+    padding: 5px 0;
+}
+
+.universidades {
+    color: red;
+}
+
+
+ /* Iconos redes sociales */
+ .social-icons {
+    margin:50px auto;
+    display: flex;
+    gap: 20px; /* Espacio entre los iconos */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para cada ícono */
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    color: #333; 
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+/* Cambia el color al pasar el cursor */
+.social-icons a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Footer */
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+.boton {
+    width: 170px;
+    height: 20px;
+    background-color: white; 
+    border: 2px solid red;
+    border-radius: 8px;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: red;
+    color: white;
+}
